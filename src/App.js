@@ -7,6 +7,9 @@ import CountryDetails from './components/CountryDetails';
 const API_KEY = '81e30ac6927c93f0d78b7fa879caf52b'; // Replace with your actual API key
 const API_URL = `https://api.countrylayer.com/v2/all?access_key=${API_KEY}`;
 
+
+
+//test
 function App() {
   const [countries, setCountries] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
