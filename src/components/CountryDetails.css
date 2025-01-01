@@ -1,0 +1,42 @@
+.country-details {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .country-details h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .country-details .flag img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .details-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .details-list li {
+    margin-bottom: 10px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #1578CF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .back-button:hover {
+    background-color: #0c5f8c;
+  }
+  

@@ -1,13 +1,15 @@
+// src/components/CountryCard.js
 import React from 'react';
-import './CountryCard.css';
+import { Link } from 'react-router-dom';
 
-function CountryCard({ country }) {
+const CountryCard = ({ country }) => {
   return (
     <div className="country-card">
-      <img src={country.flags.png} alt={`${country.name.common} flag`} />
-      <h3>{country.name.common}</h3>
+      <img src={country.flag} alt={`Flag of ${country.name}`} />
+      <h3>{country.name}</h3>
+      <Link to={`/country/${country.alpha3Code}`}>View Details</Link>
     </div>
   );
-}
+};
 
 export default CountryCard;
